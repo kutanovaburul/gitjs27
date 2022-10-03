@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #19191B;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px -99px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    width: 129px;
+height: 25px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+}
+.links {
+    width: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+}
+#header {
+    border: 1px solid #FFFFFF;
+backdrop-filter: blur(1px);
+border-radius: 5px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 572px;
+    margin-left: 92px;
+    margin-top: 110px;
+    justify-content: space-evenly;
+    color: white;
+}
+.desc h1 {
+    width: 582px;
+height: 252px;;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 84px;
+}
+.desc p {
+    width: 580px;
+height: 117px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 39px;
+}
+.desc img {
+    width: 204px;
+height: 58px;
+left: 123px;
+top: 673px;
+}
+#guy {
+    width: 627.29px;
+height: 712.88px;
+margin-left: 705px;
+margin-top: -668px;
+}
+.maindesc h2 {
+    color: white;
+    width: 695px;
+height: 140px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+margin-left: 330px;
+margin-top: 115px;
+margin-bottom: 90px;
+}
+.imginblock {
+    width: 69px;
+    height: 69px;
+}
+.h4inblock {
+    width: 220px;
+height: 38px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+letter-spacing: -0.750316px;
+color: white;
+}
+.pinblock {
+    width: 299px;
+height: 56px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -0.500211px;
+color: white;
+}
+
+.fblock {
+    width: 299px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.maindesc2 h2 {
+    width: 651px;
+height: 79px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 79px;
+color: #FFFFFF;
+text-align: center;
+margin-left: 80px;
+margin-top: 90px;
+}
+.img1 {
+    width: 1251px;
+    height: 440px;
+    padding-top: 62px;
+    padding-left: 80px;
+}
+#mini {
+    width: 48px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 87px;
+padding-left: 642px;
+}
+.maindesc3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.maindesc3 h2 {
+    width: 826px;
+height: 164px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 82px;
+color: #FFFFFF;
+}
+.maindesc3 button {
+    width: 201px;
+height: 60px;
+border-radius: 4px;
+background: #5454D4;
+border: 0;
+color: white;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+text-align: center;
+align-items: center;
+}
+#llast {
+    width: 1037.67px;
+height: 42.56px;
+margin-left: 157px;
+margin-top: 70px;
+}
+.shadow {
+    position: absolute;
+    left: 14px;
+    top: -292px;
+width: 467px;
+height: 1233.79px;
+background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
+filter: blur(150px);
+border-radius: 233.5px;
+transform: rotate(-54.37deg);
+}
+.shadow2 {
+    position: absolute;
+    width: 467px;
+    height: 1399.3px;
+    left: 978.44px;
+    top: -165px;
+    background: linear-gradient(180deg, rgba(251, 168, 28, 0.1066) 0%, rgba(224, 86, 136, 0.0615) 100%);
+    filter: blur(150px);
+    border-radius: 233.5px;
+    transform: rotate(65.71deg);
+}
+.shadow3 {
+    position: absolute;
+width: 860px;
+height: 2576.87px;
+left: 1138.79px;
+top: 543px;
+background: linear-gradient(180deg, rgba(251, 168, 28, 0.048) 0%, rgba(224, 86, 136, 0.018) 100%);
+filter: blur(150px);
+border-radius: 233.5px;
+transform: rotate(65.71deg);
+}
+.shadow4 {
+    position: absolute;
+width: 467px;
+height: 508.5px;
+left: -131px;
+top: 1600.59px;
+background: linear-gradient(180deg, rgba(84, 84, 212, 0.21) 0%, rgba(84, 84, 212, 0.0882) 100%);
+filter: blur(150px);
+border-radius: 233.5px;
+transform: rotate(-54.37deg);
+}
+#zigzug {
+    position: absolute;
+width: 95px;
+height: 28px;
+left: 667px;
+top: 211px;
+border: 0;
+mix-blend-mode: lighten;
+}
+#circle1 {
+    box-sizing: border-box;
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1196px;
+top: 164px;
+mix-blend-mode: lighten;
+}
+#circle2 {
+    box-sizing: border-box;
+position: absolute;
+width: 37px;
+height: 37px;
+left: 1213px;
+top: 183px;
+mix-blend-mode: lighten;
+}
+#triangle1 {
+    box-sizing: border-box;
+position: absolute;
+width: 68px;
+height: 68px;
+left: 666px;
+top: 701.01px;
+mix-blend-mode: lighten;
+}
+#triangle2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 675px;
+    top: 722.01px;   
+    mix-blend-mode: lighten; 
+}
+#plus {
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 1250px;
+top: 667px;
+mix-blend-mode: lighten;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.links2 a {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: white;
+text-decoration: none;
+}
+.links2 {
+    width: 455px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+.container2 p {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 38px;
+color: white;
+}
